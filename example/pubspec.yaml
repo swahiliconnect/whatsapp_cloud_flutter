@@ -1,0 +1,31 @@
+name: whatsapp_cloud_flutter_example
+description: Examples for the WhatsApp Cloud Flutter package
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  whatsapp_cloud_flutter:
+    path: ../
+  cupertino_icons: ^1.0.5
+  shared_preferences: ^2.0.15
+  file_picker: ^5.2.2
+  intl: ^0.18.0
+  http: ^0.13.5
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - .env
