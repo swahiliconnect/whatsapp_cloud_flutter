@@ -1,0 +1,50 @@
+name: whatsapp_cloud_flutter
+description: A comprehensive Flutter package providing type-safe WhatsApp Cloud API integration. Send messages, handle webhooks, manage media, and build chat interfaces with ease.
+version: 1.1.3
+homepage: https://swahiliconnect.com
+repository: https://github.com/swahiliconnect/whatsapp_cloud_flutter
+issue_tracker: https://github.com/swahiliconnect/whatsapp_cloud_flutter/issues
+documentation: https://pub.dev/documentation/whatsapp_cloud_flutter/latest/
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  dio: ^5.3.0
+  logger: ^2.0.0
+  shared_preferences: ^2.2.0
+  meta: ^1.9.0
+  path: ^1.8.3
+  equatable: ^2.0.5
+  json_annotation: ^4.8.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.0
+  json_serializable: ^6.7.0
+  mockito: ^5.4.0
+  flutter_lints: ^3.0.1
+  test: ^1.24.0
+
+flutter:
+
+topics:
+  - whatsapp
+  - messaging
+  - api
+  - business
+  - chat
+
+platforms:
+  android:
+  ios:
+  web:
+  windows:
+  macos:
+  linux:

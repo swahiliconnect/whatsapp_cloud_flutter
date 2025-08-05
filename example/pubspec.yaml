@@ -1,0 +1,28 @@
+name: whatsapp_cloud_flutter_example
+description: Example app demonstrating WhatsApp Cloud API integration
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  whatsapp_cloud_flutter:
+    path: ../
+  # Optional: Add these dependencies for advanced features
+  # Uncomment as needed:
+  shelf: ^1.4.0                    # For webhook server
+  # image_picker: ^1.0.0             # For media upload from camera/gallery
+  # file_picker: ^4.6.0              # For document upload
+  # path_provider: ^2.0.0            # For file storage
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
